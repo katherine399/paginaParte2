@@ -1,0 +1,146 @@
+#principal{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid #000;
+	margin: auto;
+
+}
+
+header{
+	width: 900px;
+	height: 100px;
+	border: 0px solid #000;
+}
+
+#logo{
+	width: 200px;
+	height: 100px;
+	border: 0px solid #000;
+	float: left; font-family: sans-serif;
+}
+
+.titulo{
+	margin-top: 25px;
+	font-size: 30px;
+}
+
+
+.menu{
+	width: 460px;
+	height: 40px;
+	border: 1px solid #ccc;
+	float: right;
+	margin-top: 40px;
+	background: #006699;
+}
+
+.menu ul{}
+
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	padding: 10px 15px;
+	border: 0px solid #ccc;
+	color: #fff; 
+}
+
+.menu ul li a:hover{
+	background: #fff;
+	color: #006699;
+	transition: background 1s, color 1s;
+}
+
+
+.uno{
+	width: 280px;
+	height: auto; overflow: hidden;
+	border: 1px solid #ccc;
+	float: left;
+	padding: 5px;
+	text-align: center;
+	color: #000000;
+}
+
+.parrafo{
+	color: #000000;
+	text-align: justify;
+}
+.dos{
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+#info{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid #c0c0c0;
+	margin-top: 10px; color: 
+}
+
+#izq{
+	width: 585px;
+	height: auto; overflow: hidden;
+	border: 1px solid #ccc;
+	float: left;
+	padding: 5px; color: #4682b4;
+}
+
+.img{
+	margin-right: 7px;
+	margin-bottom: 7px;
+}
+
+
+#der{
+	width: 290px;
+	height: 300px;
+	border: 1px solid #ccc;
+	float: right;
+	color: blue
+}
+
+footer{
+	width: 900px;
+	height: 100px;
+	text-align: center;
+}
+
+
+
+/*/redes Sociales/*/
+
+*{box-sizing:border-box;}
+
+		.container{
+			width:70%;
+			max-width:900px;
+			padding:20px 54px;
+			margin:auto;
+		}
+
+		.social{
+			/*las imágenes usadas tienen width de 48px*/
+			width:600px;
+			position:static;
+			
+		}
+
+		/* Extra centrado vertical*/
+
+		.social{
+			/*border:1px solid #000;*/
+			top:50%;
+			right:120px;
+			/*para poner height 192 deberíamos haber indicado en el reset de estilos font-size:0;*/
+			margin-top:-100px;
+		}
+		/*  PARA LA GALERIA DE IMAGENES/
+		h1 {
+    color: #fff;
+    text-align: center;
+}
+
